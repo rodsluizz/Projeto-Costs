@@ -1,0 +1,26 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.432);
+    align-items: center;
+    padding: 1em;
+}
+
+.footer p{
+    font-size: 15pt;
+}
+
+.listaIcones{
+    display: flex;
+    gap: 10px;
+}
+
+.icones{
+    font-size: 25pt;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.icones:hover{
+    color: #FFE14D;
+}

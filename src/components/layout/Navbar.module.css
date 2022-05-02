@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.432);
+    padding: 1em;
+}
+
+.navbar:hover{
+    background-color: rgba(0, 0, 0, 0.575);
+    transition: 0.5s;
+    box-shadow: 1px 0px 4px 3px rgba(0, 0, 0, 0.575);
+}
+
+
+.lista{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.itens{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.itens a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20pt;
+    font-weight: bolder;
+}
+
+.itens a:hover{
+    transition: 0.5s;
+    text-decoration: none;
+    color: #FFE14D;
+    font-size: 20pt;
+    font-weight: bolder;
+}
+
