@@ -5,7 +5,14 @@
   font-family: 'Work Sans', sans-serif;
 }
 
-html, body, #root{
-  background-color: #fefefe;
+html, #root, body{
+  color: #ffffff;
   height: 100%;
+  background-image: url(./img/background-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
+
+
+
