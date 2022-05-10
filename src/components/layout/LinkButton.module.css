@@ -1,5 +1,6 @@
 .btn{
     font-size: 20pt;
+    text-shadow: 1.5px 1.5px 3px rgba(0, 0, 0, 0.575);
     text-decoration: none;
     color: #FFE14D;
     background-color: rgba(0, 0, 0, 0.575);
