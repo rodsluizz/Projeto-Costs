@@ -1,11 +1,37 @@
 {
   "projects": [
     {
-      "name": "Rodrigo Luiz da Cunha Ferreira",
-      "budget": "200007",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "name": "Gabi Cortinas",
+      "budget": "10000",
       "cost": 0,
       "service": [],
       "id": 1
+    },
+    {
+      "name": "Robson Cortinas",
+      "budget": "10000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "service": [],
+      "id": 2
+    },
+    {
+      "name": "Rodrigo Cunha",
+      "budget": "50000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "service": [],
+      "id": 3
     }
   ],
   "categories": [

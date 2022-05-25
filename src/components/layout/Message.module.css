@@ -1,9 +1,23 @@
 .message{
     width: 100%;
     padding: 1em;
-    border: 1px solid #000;
+    background-color: rgba(0, 0, 0, 0.432);
+    border: none;
     margin: auto;
     text-align: center;
+    margin-top: 1em;
     margin-bottom: 2em;
     border-radius: 5px;
+}
+
+.success{
+    color: #0cb915;
+    background-color: rgba(0, 0, 0, 0.432);
+    font-weight: 600;
+}
+
+.error{
+    color: rgb(204, 14, 14);
+    background-color: rgba(0, 0, 0, 0.432);
+    font-weight: 600;
 }

@@ -4,7 +4,7 @@ import Select from '../form/Select'
 import Submit from '../form/Submit'
 import { useEffect, useState } from 'react'
 
-export default function ProjectForm({handleSubmit, btnText, projectData}){
+function ProjectForm({handleSubmit, btnText, projectData}){
     const [categories, setCategories] = useState([])
     const [project, setProject] = useState(projectData || {})
 
@@ -74,4 +74,4 @@ export default function ProjectForm({handleSubmit, btnText, projectData}){
             
         </form>
     </>
-}
+} export default ProjectForm

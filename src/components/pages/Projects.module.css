@@ -1,0 +1,17 @@
+.topoDashBoard{
+    margin-top: 10px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.topoDashBoard h1{
+    display: flex;
+    margin: auto;
+}
+
+.containerPai{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}

@@ -11,10 +11,13 @@
 .btn:hover{
     transition: 0.5s;
     font-size: 20pt;
-    font-weight: 600;
+    font-weight: 500;
     text-decoration: none;
     color: #FFE14D;
     background-color: rgb(0, 0, 0);
-    padding: 13px;
     border-radius: 10px;
+}
+
+.margem{
+    margin: auto;
 }

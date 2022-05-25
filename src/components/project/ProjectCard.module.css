@@ -1,0 +1,89 @@
+.card{
+    background-color: rgba(0, 0, 0, 0.432);
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14pt;
+    margin: 10px;
+}
+
+.card h4{
+    color: #FFE14D;
+    font-size: 16pt;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card p span{
+    font-weight: bold;
+}
+
+.categories_balls span{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #FFE14D;
+    margin-top: 4.5px;
+    margin-right: 5px;
+}
+
+.categories_balls{
+    display: flex;
+}
+
+.categories_balls .infra{
+    background-color: blue;
+}
+
+.categories_balls .desenvolvimento{
+    background-color: chartreuse;
+}
+
+.categories_balls .design{
+    background-color: darkmagenta;
+}
+
+.categories_balls .planejamento{
+    background-color: darkorange;
+}
+
+.project_card_actions{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.project_card_actions a{
+    text-decoration: none;
+    color: #fff;
+    border: #fff 1px solid;
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 13pt;
+}
+
+.project_card_actions a:hover{
+    text-decoration: none;
+    color: #FFE14D;
+    border: #FFE14D 1px solid;
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 13pt;
+}
+
+
+.project_card_actions button{
+    background: none;
+    color: #fff;
+    font-size: 13pt;
+    border: #fff 1px solid;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.project_card_actions button:hover{
+    color: rgb(240, 93, 93);
+    cursor: pointer;
+    border: rgb(240, 93, 93) solid 1px;
+}
